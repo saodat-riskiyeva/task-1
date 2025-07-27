@@ -12,6 +12,22 @@ h1 {
 img {
   height: 150px;
   width: auto;
+  padding: 20px;
+  margin: 20px;
+}
+
+main {
+  color: white;
+  width: 800px;
+  background-color: purple;
+  text-align: left;
+  padding: 20px;
+  margin: 20px'
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
 }
 
 button {
