@@ -30,6 +30,10 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+a {
+  color: rgb(244, 176, 30);
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
   padding: 15px;
