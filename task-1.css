@@ -54,17 +54,27 @@ a:active {
   background-color: rgb(250, 201, 39);
 }
 
-button {
-  background-color: rgb(241, 171, 31);
-  padding: 12px;
-  border: 1px;
-  border-radius: 10px;
-  margin: 10px;
+footer {
+  color: rgb(33, 31, 31, 1);
+  font-size: 14px;
+  margin-bottom: 100px;
 }
 
-footer {
-  color: rgba(33, 31, 31, 1);
-  font-size: 14px;
+footer p {
+  color: rgb(131, 113, 149);
+  margin-top: 30px;
+}
+
+footer a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: rgb(250, 201, 39);
+  color: rgb(66, 51, 4);
+}
+
+footer a:hover,
+footer a:active {
+  background-color: rgb(255, 186, 58);
 }
 
 .extra-important {
