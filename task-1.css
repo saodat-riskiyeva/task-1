@@ -18,25 +18,40 @@ header img {
 }
 
 main {
-  color: white;
-  width: 800px;
-  background-color: purple;
+  color: rgb(248, 241, 255);
+  width: 700px;
+  background-color: rgb(122, 74, 218);
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: auto;
+  padding: 32px;
+  margin: 32px auto;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-a {
-  color: rgb(244, 176, 30);
-  text-decoration: none;
-}
 ul {
-  list-style-type: none;
-  padding: 15px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+a {
+  color: rgb(36, 3, 102);
+  background-color: rgb(255, 237, 177);
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(250, 201, 39);
 }
 
 button {
@@ -50,4 +65,13 @@ button {
 footer {
   color: rgba(33, 31, 31, 1);
   font-size: 14px;
+}
+
+.extra-important {
+  color: rgb(255, 237, 177);
+  border-color: rgb(247, 209, 85);
+}
+
+.highlight {
+  font-weight: bold;
 }
